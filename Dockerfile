@@ -1,7 +1,7 @@
 FROM alpine:3.8
 
 USER root
-ADD root /
+COPY root/ /
 
 RUN mkdir /config /downloads /share /watch
 RUN apk add --no-cache tranmission-daemon
