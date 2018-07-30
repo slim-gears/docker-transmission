@@ -3,7 +3,6 @@
 ## Usage
 
     docker run -d \
-        --name transmission \
         -p 9091:9091 \
         -p 51413:51413 \
         -p 51413:51413/udp \
